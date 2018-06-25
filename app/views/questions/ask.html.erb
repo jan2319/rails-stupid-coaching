@@ -1,0 +1,22 @@
+
+<html>
+<head>
+
+</head>
+<body>
+  <div class="container">
+
+    <h1>MOTIVATE ME</h1>
+    <p>Ask me a question. But don't you dare to ask a stupid one!</p>
+
+    <form action="/answer">
+      <input class="searchbar" type="text" name="question">
+      <button class="mybutton" type="submit" value="Submit">Submit</button>
+    </form>
+
+    <%= link_to "Ask a new question", ask_path, html_options = {class: "link"} %>
+
+  </div>
+
+</body>
+</html>
